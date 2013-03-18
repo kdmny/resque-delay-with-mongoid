@@ -51,7 +51,7 @@ module ResqueDelayWithMongoid
       when Class              then class_to_string(arg)
       when ActiveRecord::Base then ar_to_string(arg)
       else 
-        if defined?(Mongoid) && arg.is_a?(Mongoid::Document)p
+        if defined?(Mongoid) && arg.is_a?(Mongoid::Document)
           mg_to_string(arg)          
         else
           arg
