@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name              = "resque-delay-with-mongoid"
-  s.version           = "0.0.1"
+  s.version           = "0.0.2"
   s.date              = Time.now.strftime('%Y-%m-%d')
   s.summary           = "Enable send_later/delay for Resque with support for mongoid backends."
   s.homepage          = "http://github.com/kdmny/resque-delay-with-mongoid"
